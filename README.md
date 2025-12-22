@@ -63,7 +63,7 @@ Key Finding: The evolved winner ("Do not include examples or elaboration") outpe
 
 ### Evolution Dynamics
 
-- Fast convergence**: Optimal fitness reached by generation 3
+- Fast convergence: Optimal fitness reached by generation 3
 - Stable plateau: Maintained 0.90+ fitness for 9 generations
 - Population quality: Worst performer improved from 0.35 → 0.88
 - Length control: Median prompt length stabilized at 6 words
@@ -81,19 +81,19 @@ Insight: Evolution focused almost entirely on optimizing brevity, which had the 
 
 ### Key Observations
 
-### 1. Brevity is King -
+### 1. Brevity is King
 Evolution focused 110% improvement on brevity scores, demonstrating that concise instructions work better for factual QA.
 
-### 2. Seeds Matter -
+### 2. Seeds Matter
 Starting fitness of 0.891 (best seed) → final 0.901 shows seed quality is critical. Well-curated initial prompts yield better results.
 
-### 3. Fast Convergence -
+### 3. Fast Convergence
 Optimal fitness reached by generation 3, suggesting the prompt space for simple QA is relatively small and easy to optimize.
 
-### 4. Negative Instructions Win -
-"Do NOT include X" consistently outperformed positive instructions like "Be concise" — telling the LLM what to avoid works better.
+### 4. Negative Instructions Win
+"Do NOT include X" consistently outperformed positive instructions like "Be concise", telling the LLM what to avoid works better.
 
-### 5. Length Sweet Spot -
+### 5. Length Sweet Spot
 6 words emerged as optimal prompt length. Shorter (4 words) lost clarity, longer (8+) added no value.
 
 ## How To Run
