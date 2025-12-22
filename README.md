@@ -107,5 +107,10 @@ pip install numpy matplotlib
 4. Install Ollama & set up llama3:latest.
 5. Open and run the cells of the `Promptify.ipynb` Jupyter Notebook.
 
-Promptify
-A lightweight genetic algorithm–based evolutionary framework for automated prompt engineering that discovers and evolves high-performing LLM instruction sets through selection and mutation to optimize task performance.
+## Contributing
+
+Contributions are welcome!
+
+## License
+
+Distributed under the MIT License. 
